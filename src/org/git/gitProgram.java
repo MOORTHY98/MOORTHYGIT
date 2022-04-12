@@ -5,11 +5,11 @@ package org.git;
 public class gitProgram {
 	private void employeename()  {
 		
-		System.out.printf("Employee name: vijay");
+		System.out.printf("Employee name: Tamil");
 	}
 	private void employeeId() {
 		
-		System.out.printf("Employee ID: 4662");
+		System.out.printf("Employee ID: 02508");
 	}
 	private void employeedob() {
 		
@@ -24,6 +24,7 @@ public class gitProgram {
 	private void employeeaddress() {
 		System.out.println("Employee address: 56-RSR Road, RS puram, coimbatore");
 	}
+	
 	public static void main(String[] args) {
 		gitProgram e = new gitProgram();
 		e.employeename();
