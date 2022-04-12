@@ -24,6 +24,10 @@ public class gitProgram {
 	private void employeeaddress() {
 		System.out.println("Employee address: 56-RSR Road, RS puram, coimbatore");
 	}
+	private void employeesalary() {
+		System.out.println("Employee salary: 31000.00");
+	}
+	
 	public static void main(String[] args) {
 		gitProgram e = new gitProgram();
 		e.employeename();
@@ -32,6 +36,6 @@ public class gitProgram {
 		e.employeephone();
 		e.employeeemail();
 		e.employeeaddress();
-		
+		e.employeesalary();
 }
 }
